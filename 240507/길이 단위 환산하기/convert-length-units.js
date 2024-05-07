@@ -4,4 +4,4 @@ let input = fs.readFileSync(0).toString();
 
 input = Number(input);
 
-console.log(input.toFixed(1));
+console.log((input * 30.48).toFixed(1));
