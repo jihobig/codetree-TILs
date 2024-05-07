@@ -2,4 +2,6 @@ const fs = require('fs');
 
 let input = Number(fs.readFileSync(0).tostring());
 
-console.log(input.toFixed(2))
+input = input.toFixed(2);
+
+console.log(input);
