@@ -1,7 +1,7 @@
-const fs = require('fs');
+const fs = require("fs");
 
-let input = fs.readFileSync(0).tostring();
+let n = fs.readFileSync(0).toString();
+n = Number(n);
 
-input = Number(input);
 
-console.log(input.toFixed(2));
+console.log(n.toFixed(2));
